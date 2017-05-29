@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Kozuka Gothic B;
+    src: url("../fonts/Kozuka-Gothic-Pro-H.otf")
+}
+body {
+    font-family:  Kozuka Gothic B;
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(waves.jpg) no-repeat;*/
+    background-size: cover; 
+}
+h1 {
+    font-size: 40px;
+    color:  white;
+    position: absolute; 
+    bottom: 0; right: 0; 
+    margin-right: 70px;
+    margin-bottom: 30px;
+    width: 120px;
+    text-align:right;
+    line-height: 31px;
+}
+@media screen and (max-device-width: 800px) {
+    html {
+        /* background: url(waves.jpg) #000 no-repeat center center fixed;*/
+    }
+    #bgvid {
+        display: none;
+    }
+}
