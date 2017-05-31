@@ -37,9 +37,6 @@ span {
 }
 @media screen and (max-device-width: 800px) {
     html {
-         background: url(waves.jpg) #000 no-repeat center center fixed;
-    }
-    #bgvid {
-        display: none;
+         background: url(../img/waves.png) #000 no-repeat center center fixed;
     }
 }
